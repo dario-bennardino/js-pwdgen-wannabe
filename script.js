@@ -11,3 +11,5 @@ const numero = 24;
 
 const output = nomeUtente + cognomeUtente + colorePreferitoUtente + numero;
 console.log(output);
+
+document.getElementById('messaggio').innerHTML = output;
